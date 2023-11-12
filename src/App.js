@@ -1,9 +1,15 @@
-import Counter from "./feature/Counter";
+
+import PostList from "./feature/posts/PostList";
+import AddPostForm from "./feature/posts/AddPostForm";
+
 
 function App(){
   return(
     <main>
-      <Counter />
+    
+    <AddPostForm />
+    <PostList />
+   
     </main>
   )
 
